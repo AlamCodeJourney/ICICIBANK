@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cabin Condensed', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/* start here header section */
+.header {
+    width: auto;
+    background-color: #ff6900;
+    height: 13vh;
+    border-bottom: 1px solid rgb(192, 188, 188);
+   
+}
+
+.headerimg {
+    width: 15%;
+    height: 15%;
+    margin: 20px 30px;
+}
+
+.aplybtn {
+    float: right;
+    margin: -67px 70px;
+}
+
+.apy-btn {
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+/*starts here first-section */
+.first-section {
+    background-color: #ff6900;
+    height: 100vh;
+    width: auto;
+}
+
+.first-section-left {
+    width: 60%;
+    float: left;
+}
+
+.firstsectionpara1{
+    margin: 100px 70px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.firstsectionpara2 {
+    margin: -90px 70px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.first-section-btn button {
+    margin: 130px 70px;
+}
+
+.first-apy-btn {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    color: #ff6900;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.first-section-left {
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+.first-section-right {
+    float: right;
+    width: 40%;
+}
+
+.first-section-right-img {
+    width: 450q;
+    margin: 90px 220px;
+}
+
+/* second section start here */
+.second-section {
+    width: auto;
+}
+
+.second-section-col {
+    display: flex;
+}
+
+.second-section-card {
+    width: 20%;
+    height: 20vh;
+    margin: 40px 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    border-right: 1px solid gray;
+    width: 30%;
+}
+
+.second-section-text {
+    margin: 30px 0px;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.second-section-text1,
+.second-section-col1-left p,
+.third-section-frist-col-text p {
+    font-size: 35px;
+    color: #ff6900;
+    font-weight: bolder;
+}
+
+.second-section-col1 {
+    display: flex;
+    margin: 80px 30px;
+}
+
+.second-section-col1-card {
+    width: 45%;
+    justify-content: center;
+    text-align: center;
+}
+
+/* third section start here */
+.third-section {
+    width: auto;
+    margin: 0px 20px;
+}
+
+.third-section-first-col {
+    text-align: center;
+}
+
+.third-section-second-col-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section-second-col-img img {
+    width: 30%;
+    margin: 20px 10px;
+}
+
+.third-section-aply-btn {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.third-section-aplybtn {
+    width: 150px;
+    height: 50px;
+    background-color: #ff6900;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.footers {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    width: auto;
+}
+
+.footer-section {
+    display: flex;
+}
+
+.footer-first-col {
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    margin: 30px 0px;
+    font-size: 13px;
+}
+
+.footer-first-col1 {
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    margin: 30px -30px;
+    font-size: 13px;
+    display: flex;
+}
+
+.footer-first-col1 p {
+    margin: 0px 10px;
+}
+
+.footer-first-col1 p:hover {
+    color: #ff6900;
+}
+
+.form-container{
+    pointer-events: all;
+    background-color:(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    display: none;
+    border: 1px solid black;
+}
+.form-div-container{
+    background-color: antiquewhite;
+    width: 500px;
+    height:550px;
+    border-radius: 10px;
+    margin: 30px auto;
+}    
+.main-heading p{
+    color: #ff6900;
+    font-size: 2rem;
+    text-align: center;
+    padding: 50px 0px;
+}    
+.input-container{
+    margin: -30px 0px;
+}
+.input-field{
+    width: 100px;
+    margin: 10px 60px;
+}
+.input-field input {
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    padding: 0px 10px;
+}
+.input-field input:focus {
+    background-color:rgba(0, 0, 0, 0.6);
+    color: white;
+}
+.sbmbtn{
+    text-align: center;
+}
+.smbtn{
+    width:130px;
+    margin: 10px 5px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ff6900;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .headerimg {
+        width: 10%; /* Adjust the size of the header image */
+        margin: 10px 20px; /* Adjust the margins */
+    }
+    
+    .headerimg {
+    width: 20%;
+    height: 29%;
+    margin: 20px 30px;
+}
+
+    .aplybtn {
+        margin: -50px 20px; /* Adjust the button position */
+    }
+
+    .first-section-left,
+    .first-section-right {
+        width: 100%; /* Adjust the width of sections */
+        text-align: center; /* Center-align the content */
+    }
+
+    .first-section-left {
+        padding: 1px; /* Add padding for better spacing */
+    }
+
+    .first-section-right-img {
+        width: 70%; /* Adjust the size of the image */
+        margin: 70px 70px; /* Center-align the image */
+    }
+
+    .form-div-container {
+        width: 90%; /* Adjust the width of the form container */
+    }
+
+    .input-field {
+        width: 80%; /* Adjust the width of input fields */
+        margin: 10px auto; /* Center-align the input fields */
+    }
+
+    .sbmbtn button {
+        width: 80%; /* Adjust the width of buttons */
+        margin: 10px auto; /* Center-align the buttons */
+    }
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 480px) {
+    .headerimg {
+        width: 20%; /* Adjust the size of the header image */
+        margin: 15px 20%; /* Adjust the margins */
+    }
+    
+    .headerimg {
+        width: 10%; /* Adjust the size of the header image */
+        margin: 10px 20px; /* Adjust the margins */
+    }
+    
+    .first-section-right-img {
+        width: 80%; /* Adjust the size of the image */
+        margin: 10px auto;
+    }
+    
+    .headerimg {
+    width: 29%;
+    height: 29%;
+    margin: 45px 40px;
+}
+
+    .aplybtn {
+        margin: -80px 23px; /* Adjust the button position */
+    }
+    
+    .apy-btn {
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.firstsectionpara1{
+    margin: 140px 70px;
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: white;
+}
+
+.firstsectionpara2 {
+    margin: -100px 70px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.first-section-btn button {
+    margin: 180px 70px;
+}
+
+ 
+
+    .first-section-left,
+    .first-section-right {
+        width: 100%; /* Adjust the width of sections */
+        text-align: center; /* Center-align the content */
+    }
+
+    .first-section-left {
+        padding: 3px; /* Add padding for better spacing */
+    }
+
+   
+
+    .form-div-container {
+        width: 100%; /* Adjust the width of the form container */
+    }
+
+    .input-field {
+        width: 90%; /* Adjust the width of input fields */
+        margin: 10px auto; /* Center-align the input fields */
+    }
+
+    .sbmbtn button {
+        width: 90%; /* Adjust the width of buttons */
+        margin: 10px auto; /* Center-align the buttons */
+    }
+}
